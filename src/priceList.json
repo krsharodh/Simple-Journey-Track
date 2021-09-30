@@ -1,0 +1,23 @@
+[
+    {
+        "stops": [
+            "Stop1",
+            "Stop2"
+        ],
+        "fare": 3.25
+    },
+    {
+        "stops": [
+            "Stop2",
+            "Stop3"
+        ],
+        "fare": 5.50
+    },
+    {
+        "stops": [
+            "Stop1",
+            "Stop3"
+        ],
+        "fare": 5.50
+    }
+]
