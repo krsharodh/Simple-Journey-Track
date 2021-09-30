@@ -1,5 +1,3 @@
-const { Parser } = require('json2csv');
-const { TAPS_CSV_FIELD } = require('../Constants/tapCsvField')
 const priceList = require('../priceList.json');
 
 /**
@@ -61,10 +59,6 @@ function createTripsCSV(csvLines) {
         }
     });
 
-    // const json2csvParser = new Parser({ TAPS_CSV_FIELD });
-    // const csv = json2csvParser.parse(tripsList);
-
-    // return csv
     return tripsList
 }
 
