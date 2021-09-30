@@ -106,7 +106,7 @@ function App() {
               tripsData.length === 0
                 ? (loader ? <CircularProgress /> : "")
                 :
-                <CSVLink data={tripsData} headers={TAPS_CSV_FIELD} filename={"taps.csv"}>
+                <CSVLink data={tripsData} headers={TAPS_CSV_FIELD} filename={"trips.csv"}>
                   Download me
                 </CSVLink>
             }
