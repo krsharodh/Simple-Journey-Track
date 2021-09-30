@@ -23,6 +23,7 @@
 4. ```cd client``` for frontend directory
 5. ```npm install``` to install fronend dependencies
 6. ```npm start``` to start the fronend app
+7. Use the ```taps.csv``` in the root directory to the test the app. 
 
 ## Unit Testing
 Run ```npm test``` from root directory.
